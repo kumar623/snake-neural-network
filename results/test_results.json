@@ -1,0 +1,14 @@
+{
+  "test_games": 100,
+  "board": "12 x 12",
+  "neural_network": {
+    "mean": 53.7,
+    "median": 56.0,
+    "best": 73,
+    "worst": 8
+  },
+  "random_moves": {
+    "mean": 0.16,
+    "best": 2
+  }
+}

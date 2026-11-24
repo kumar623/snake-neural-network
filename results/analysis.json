@@ -1,0 +1,57 @@
+{
+  "agents": {
+    "neural_network": {
+      "mean": 53.7,
+      "sd": 11.3,
+      "median": 56.0,
+      "min": 8,
+      "max": 73,
+      "mean_steps": 1607.0
+    },
+    "greedy_rule": {
+      "mean": 19.3,
+      "sd": 7.4,
+      "median": 18.0,
+      "min": 6,
+      "max": 39,
+      "mean_steps": 184.0
+    },
+    "random": {
+      "mean": 0.1,
+      "sd": 0.4,
+      "median": 0.0,
+      "min": 0,
+      "max": 2,
+      "mean_steps": 27.0
+    },
+    "nn_beats_greedy_games": 97
+  },
+  "seeds": {
+    "42": {
+      "mean": 53.7,
+      "sd": 11.3,
+      "median": 56.0,
+      "min": 8,
+      "max": 73
+    },
+    "7": {
+      "mean": 45.1,
+      "sd": 13.0,
+      "median": 45.5,
+      "min": 20,
+      "max": 78
+    },
+    "123": {
+      "mean": 48.9,
+      "sd": 10.3,
+      "median": 51.0,
+      "min": 7,
+      "max": 72
+    }
+  },
+  "death_causes_nn": {
+    "wall": 1,
+    "own_body": 99,
+    "no_food_limit": 0
+  }
+}
